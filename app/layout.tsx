@@ -29,23 +29,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-white p-5 grid grid-rows-1 grid-cols-9 items-center ">
+        <div className="bg-white dark:bg-black p-5 grid grid-rows-1 grid-cols-9 items-center ">
           <div className="col-span-2"> 
           <Link href="/"><img src="Aonbas.jpg" alt="" className="w-15 rounded-md"/></Link>
           </div>
-          <div className="col-span-5 flex justify-between text-black">
-            <Link href="/" className="hover:font-semibold">Descargar</Link>
-            <Link href="/sobre-aonbas" className="hover:font-semibold">Sobre Aonbas</Link>
-            <Link href="/horarios" className="hover:font-semibold">Horarios</Link>
-            <Link href="/tus-opiniones" className="hover:font-semibold">Tus opiniones</Link>
-            <Link href="/contactanos" className="hover:font-semibold">Contactanos</Link>
+          <div className="col-span-5 flex justify-between text-black dark:text-white">
+            <Link href="/descargar" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1">Descargar</Link>
+            <Link href="/sobre-aonbas" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Sobre Aonbas</Link>
+            <Link href="/" className="rounded-md font-bold hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1">Aonbas</Link>
+            <Link href="/horarios" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Horarios</Link>
+            <Link href="/tus-opiniones" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Tus opiniones</Link>
           </div>
-          <div className="col-span-2 flex justify-end ">
-            <Link href="/login" className="bg-[#4eeee1] text-black text-sm mr-3 pr-4 pl-4 pt-1 pb-1 rounded-sm border border-zinc-400 transition duration-100 ease-in-out hover:bg-[#8cfcf2] ">Iniciar sesión</Link>
-            <Link href="/register" className="bg-[#4ae0d4] text-black text-sm pr-4 pl-4 pt-1 pb-1 rounded-sm border border-zinc-400 transition duration-100 ease-in-out hover:bg-[#8cfcf2]">Registarse</Link>
-          </div>
+
         </div>
-        {children}
+        <div className="dark:bg-black text-black dark:text-white bg-white min-h-screen">
+          {children}
+        </div>
       </body>
     </html>
   );
