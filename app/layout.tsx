@@ -37,7 +37,7 @@ export default function RootLayout({
             <Link href="/descargar" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1">Descargar</Link>
             <Link href="/sobre-aonbas" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Sobre Aonbas</Link>
             <Link href="/" className="rounded-md font-bold hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1">Aonbas</Link>
-            <Link href="/horarios" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Horarios</Link>
+            <Link href="/empresas" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Empresas</Link>
             <Link href="/tus-opiniones" className="rounded-md hover:text-black transition duration-300 ease-in-out hover:bg-[#37cbbf] p-1 ">Tus opiniones</Link>
           </div>
 
