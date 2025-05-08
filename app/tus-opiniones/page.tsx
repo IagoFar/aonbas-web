@@ -45,7 +45,7 @@ const reviews = [
     name: "Manuel Turizo",
     username: "@manuelturizo_Oficial",
     body: "Ya solo uso esta app cada que necesito ir a un lugar",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://avatar.vercel.sh/john",
   },
   {
     name: "Feid",

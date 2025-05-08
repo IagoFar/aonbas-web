@@ -22,7 +22,22 @@ export default function Page() {
             <Link href="https://www.tmb.cat/" target="_blank" className="text-blue-500 hover:underline">Visitar TMB</Link>
           </div>
         </div>
-
+        <div className="flex flex-row bg-zinc-200 dark:bg-zinc-800 rounded-md shadow-md p-5 w-full">
+          <img src="renfe.jpg" alt="Logo TMB" width={100} height={100} className="rounded-md" /> {/* Logo RENFE */}
+          <div className="ml-5">
+            <h3 className="text-2xl font-semibold">Rodalies en Ferrocarrils</h3>
+            <p>RENFE representa la part de Trens a barcelona i rodalies</p>
+            <Link href="https://data.renfe.com/dataset?res_format=GTFS&tags=horarios" target="_blank" className="text-blue-500 hover:underline">Visitar RENFE</Link>
+          </div>
+        </div>
+        <div className="flex flex-row bg-zinc-200 dark:bg-zinc-800 rounded-md shadow-md p-5 w-full">
+          <img src="FGC.png" alt="Logo TMB" width={100} height={100} className="rounded-md" /> {/* Logo FGC */}
+          <div className="ml-5">
+            <h3 className="text-2xl font-semibold">Ferrocarrils de la Generalitat de Catalunya</h3>
+            <p>FGC representa la part de trens per tot Catalunya</p>
+            <Link href="https://www.fgc.cat/" target="_blank" className="text-blue-500 hover:underline">Visitar FGC</Link>
+          </div>
+        </div>
       </div>
     </div>
   )
